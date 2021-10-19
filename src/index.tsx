@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Header from '../src/Components/Elemento';
+import Header from './Components/Header';
+import Footer from './Components/Footer'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header/>
+    <Header label={"asd"} id={23} />
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

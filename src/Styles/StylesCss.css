@@ -53,6 +53,7 @@ button:hover{
 .space { margin-top: 250px; }
 .topnav {
   overflow: hidden;
+  background-color: rgb(37, 36, 65);
   
 }
 
@@ -72,5 +73,5 @@ button:hover{
 
 .topnav a.active {
   background-color: #04AA6D;
-  color: white;
+  color: rgb(68, 50, 50);
 }
