@@ -1,31 +1,22 @@
 import { AiTwotoneShopping } from "react-icons/ai";
 import React,{useState} from 'react';
+import ItemListContainer from "./ItemListContainer";
 
-type HeaderProps  ={
-    label:string
-    
-    
- }
+
  
 
-export default function NavBarIcon ({label}:HeaderProps){
+export default function NavBarIcon (){
     const [isShown, setIsShown] = useState(false);
     return(
         <div>
              <AiTwotoneShopping
              onMouseEnter={() => setIsShown(true)}
-             onMouseLeave={() => setIsShown(false)}>
+             onClick={() => setIsShown(false)}>
 
              </AiTwotoneShopping>
+             
              {isShown && (
-        <div>
-            <ul>
-                <li> {label} </li>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
-            </ul>
-        </div>
+            <ItemListContainer label="Bienvenido Gabriel"></ItemListContainer>
       )}
             
 

@@ -9,7 +9,7 @@ export default function NavBar (){
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
     <a href="#about">About</a>
-    <a href="#Test"><NavBarIcon label="Bienvenido Gabriel"/>  </a>
+    <a href="#Test"><NavBarIcon />  </a>
        
     </div>
 
