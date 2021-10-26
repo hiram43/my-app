@@ -2,12 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Header from './Components/Header';
 import Footer from './Components/Footer'
+import Counter from './Components/Counter/Counter'
 
 
 
 ReactDOM.render(
   <React.StrictMode>
     <Header label={"asd"} id={23} />
+    <Counter />
     <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
