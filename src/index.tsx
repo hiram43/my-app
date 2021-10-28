@@ -9,7 +9,7 @@ import Counter from './Components/Counter/Counter'
 ReactDOM.render(
   <React.StrictMode>
     <Header label={"asd"} id={23} />
-    <Counter initialNumber={0} stock={25} />
+    <Counter initialNumber={0} stock={25} agregar={"stuff"} />
     <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
