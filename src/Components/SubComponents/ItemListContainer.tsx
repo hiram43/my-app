@@ -1,3 +1,5 @@
+import ItemList from "./itemList"
+
 
 
 
@@ -7,15 +9,13 @@ type HeaderProps  ={
     
  }
  
+ 
 
 export default function ItemListContainer ({label}:HeaderProps){
     return (
         <div>
             <ul>
-                <li> {label} </li>
-                <li>Item 1</li>
-                <li>Item 2</li>
-                <li>Item 3</li>
+            <ItemList item={"objeto"}/>
             </ul>
         </div>
     )
